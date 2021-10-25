@@ -1,0 +1,100 @@
+div {
+    background-color:cadetblue;
+    margin:10px;
+}
+span {
+    font-weight: bold;
+}
+h1#principal {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: rgb(1, 1, 8);
+    background-color:  lightblue;
+    border-color: rgb(92, 90, 90);  
+}
+.img > span {
+    display : nenhum;
+
+}
+.img:hover > span {
+    display : inline-block;
+}
+div.img {
+    font-family: cursive;
+    color: rgb(12, 1, 1);
+    background-color: palevioletred;
+    border-color: rgb(110, 2, 35);  
+    margin: 20px ;
+    padding: 10px ;
+
+}
+div.agrupamento {
+    font-family : Arial , Helvetica , sans-serif;
+    color: rgba(0, 5, 0, 0.747);
+    background-color: lightgreen;
+    border-color:  darkgreen;  
+    margin: 20px;
+    padding:10px;
+}
+.ex1 {
+    font-family : Arial , Helvetica , sans-serif;
+    background-color: powderblue;
+    color: rgb(13, 13, 95);
+    border: RGB sólido de 2 px ( 255 , 255 , 255 );  
+    margin:20px ;
+    padding: 10px ;
+    height:  60 px ;
+    width: 0 px ;
+}
+.ex2{
+    font-family: Arial , Helvetica , sans-serif;
+    background-color: rgb ( 85 ,  70 ,  100 );
+    color: black;
+    border: RGB sólido de 2 px ( 255 , 255 , 255 );  
+    margin : 20 px ;
+    padding: 10 px ;
+    width: 80 px ;
+    height: 30 px ;
+}
+.personalizado {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(110, 2, 35);
+    color: lightpink;  
+    margin: 20 px ;
+    padding: 20 px ;
+}
+.personalizado:hover {
+    color: rgb(94, 94, 141);
+    background-color:  rgb(28, 28, 48);
+    margin: 20px ;
+    padding:  20px ;
+
+}
+a:link {
+    color: lightseagreen;
+
+}
+a:visitou {
+    color:plum;
+}
+
+
+a:hover {
+    color:mediumpurple;
+}
+
+a:ativo {
+    color:purple;
+}
+.pseudo>span {
+    display: nenhum;
+
+}
+.pseudo:hover>span {
+    display : block;
+    background-color:  whitesmoke;
+}
+h3::selection {
+    color: rgb rgb(53, 124, 172);
+    background-color:lightslategrey;
+}
